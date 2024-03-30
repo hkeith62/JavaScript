@@ -1,0 +1,94 @@
+/**
+    Title: WEB 330 – Enterprise JavaScript II
+    Author: Professor Krasso
+    Date: 09/08/2021
+    Modified By: Professor  P. Itskovich, Keith Hall 
+    Description: This is the style sheet for bobs-auto-repair app assignment 5.2  
+*/
+#app-header {   /* H1 heading. */           
+	text-align: center;
+	color: #fff;
+    letter-spacing: 1px;
+}
+#cart-message {   
+    float: right;          
+    font-size: 12px;
+    color: #df546a;  
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+/* Button styling */
+#btnAddProduct  {
+    width: 100%;
+	border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 15px 32px;
+	background-color: #4F3674;
+    color: #fff;
+}
+#btnAddProduct:hover {
+	background-color: #D6A800;
+    color: #4F3674;
+}
+#return-home-container {
+	margin-left: 325px; 
+}
+/* Styling of search results and table data, rows */
+#shopping-cart {                                 
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    font-size: 16px;
+	border-color: #ddd;
+}
+#shopping-cart th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4F3674;
+    color: #fff;
+}
+#shopping-cart td, #shopping-cart th {
+    border: 1px solid #ddd;
+    padding: 4px;
+    
+}
+#shopping-cart tr:hover {
+    background-color: #D6A800;
+    color: #4F3674;
+    cursor: pointer;
+}
+/* Select Menu styling */
+.drop-down-menu {
+	width: 59%;
+	padding: 12px 25px 12px 25px; 
+    margin: 18px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* Select Menu width */
+.form {
+	width: 80%;
+}
+.form-field {     /* Select Menu container */
+	width: 65%;
+}
+cart-component {            /* Begin cart styling */
+    width: 100px; 
+    margin: 0 auto; 
+    display: block;
+    font-size: 22px;
+}
+#cartIcon {
+    color: #4F3674;
+}
+#cart-count {
+    font-size: 16px;
+    color: #4F3674;
+}
